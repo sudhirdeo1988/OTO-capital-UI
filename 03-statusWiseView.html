@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Add Lead</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/css-styles.css" />
+  </head>
+  <body class="bgColor-dark">
+
+    <!-- *************** Header Top *************** -->
+    <div class="c-header">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <div class="headerLogo">
+              <a href="#"><img src="./images/logo-small.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="headerNav">
+              <ul>
+                <li><a href="javascript:void(0);" class="navLink active">Home</a></li>
+                <li><a href="javascript:void(0);" class="navLink">Add Leads</a></li>
+                <li><a href="javascript:void(0);" class="navLink">Status</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="headerNav">
+              <ul>
+                  <li class="dropdownType-1 dd_notifiBell">
+                    <button class="btnBell dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="icon ts-bell"></i>
+                      <div class="notifi"></div>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </li>
+                  <li class="dropdownType-1">
+                    <button class="headerUserInfo dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="userName">Harsh Saruparia</span>
+                      <img src="./images/photo-1.jpg" class="userImg" alt="user" />
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *************** Header Top End *************** -->
+
+    <!-- *************** Container for cards *************** -->
+      <div class="c-pageContainer">
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Total Leads</span>
+                <span class="h2">1335</span>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Submitted Leads</span>
+                <span class="h2">586</span>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Leads in QC</span>
+                <span class="h2">256</span>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Leads on hold</span>
+                <span class="h2">456</span>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Leads Unassigned</span>
+                <span class="h2">200</span>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Leads Overdue</span>
+                <span class="h2">0</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    <!-- *************** Container for cards End *************** -->
+
+    <!-- *************** Container for Filter *************** -->
+    <div class="c-pageContainer">
+      <div class="container-fluid">
+        <div class="row">
+
+          <!-- *** Search *** -->
+          <div class="col-sm-5">
+            <div class="c-searchBlock">
+              <input type="text" placeholder="Search" class="searchBox" />
+              <i class="searchIcon icon ts-search"></i>
+            </div>
+          </div>
+          <!-- *** Search End *** -->
+
+          <!-- *** Filter *** -->
+          <div class="col-sm-7">
+            <div class="c-filterList text-right">
+              <ul>
+
+                <li>
+                  <div class="filterType">
+                    <span class="span">Filter:</span>
+                    <button class="button">
+                      Date
+                      <i class="icon ts-angle-down"></i>
+                    </button>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="filterType dropdownType-1">
+                    <span class="span">Sort By:</span>
+                    <button class="button dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Registration Number
+                      <i class="icon ts-angle-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="filterType dropdownType-1">
+                    <span class="span">Layout:</span>
+                    <button class="button dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Card View
+                      <i class="icon ts-angle-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <!-- *** Filter End *** -->
+
+        </div>
+      </div>
+    </div>
+    <!-- *************** Container for Filter End *************** -->
+
+    <!-- *************** Container for Table *************** -->
+    <div class="c-pageContainer nopad">
+      <div class="dividerContainer">
+
+        <!-- **** Sidebar ***** -->
+        <div class="dividerSection sideBar">
+          <ul>
+            <li><button class="linkItem">Assigned Leads</button></li>
+            <li><button class="linkItem">Unassigned Leads</button></li>
+            <li><button class="linkItem">Inspected Leads</button></li>
+            <li><button class="linkItem">QC Done</button></li>
+          </ul>
+        </div>
+        <!-- **** Sidebar End ***** -->
+
+        <div class="dividerSection infoSection">
+
+          <!-- *** Table Container *** -->
+          <div class="c-tableContainer">
+            <table class="table type-1">
+              <tr>
+                <th style="width: 14%">#Registration No.</th>
+                <th style="width: 10%">City</th>
+                <th style="width: 10%">Make</th>
+                <th style="width: 10%">Model</th>
+                <th style="width: 10%">Varient</th>
+                <th style="width: 11%">Bank Name</th>
+                <th style="width: 11%">Status</th>
+                <th style="width: 12%">Seller's Details</th>
+                <th style="width: 12%">Inspector's Details</th>
+              </tr>
+              <tr>
+                <td>MH02 CZ 2820</td>
+                <td>Mumbai</td>
+                <td>Maruti</td>
+                <td>Ertiga</td>
+                <td>ZXL</td>
+                <td>HDFC Bank</td>
+                <td><span class="statusTag st-inspected">QC Inspected</span></td>
+                <td>Sumit Vyas</td>
+                <td>Sumit Vyas</td>
+              </tr>
+              <tr>
+                <td>MH02 CZ 2820</td>
+                <td>Mumbai</td>
+                <td>Maruti</td>
+                <td>Ertiga</td>
+                <td>ZXL</td>
+                <td>HDFC Bank</td>
+                <td><span class="statusTag st-assigned">Assigned</span></td>
+                <td>Sumit Vyas</td>
+                <td>Sumit Vyas</td>
+              </tr>
+              <tr>
+                <td>MH02 CZ 2820</td>
+                <td>Mumbai</td>
+                <td>Maruti</td>
+                <td>Ertiga</td>
+                <td>ZXL</td>
+                <td>HDFC Bank</td>
+                <td><span class="statusTag st-inprocess">In Process</span></td>
+                <td>Sumit Vyas</td>
+                <td>Sumit Vyas</td>
+              </tr>
+              <tr>
+                <td>MH02 CZ 2820</td>
+                <td>Mumbai</td>
+                <td>Maruti</td>
+                <td>Ertiga</td>
+                <td>ZXL</td>
+                <td>HDFC Bank</td>
+                <td><span class="statusTag st-inprocess">In Process</span></td>
+                <td>Sumit Vyas</td>
+                <td>Sumit Vyas</td>
+              </tr>
+            </table>
+          </div>
+          <!-- *** Table Container End *** -->
+
+          <!-- *** Table Container *** -->
+          <div class="c-tableContainer">
+            <table class="table type-1">
+              <tr>
+                <th colspan="9">Yesterday, 21 July 2019</th>
+              </tr>
+              <tr>
+                <td style="width: 14%">MH02 CZ 2820</td>
+                <td style="width: 10%">Mumbai</td>
+                <td style="width: 10%">Maruti</td>
+                <td style="width: 10%">Ertiga</td>
+                <td style="width: 10%">ZXL</td>
+                <td style="width: 11%">HDFC Bank</td>
+                <td style="width: 11%"><span class="statusTag st-inprocess">In Process</span></td>
+                <td style="width: 12%">Sumit Vyas</td>
+                <td style="width: 12%">Sumit Vyas</td>
+              </tr>
+              <tr>
+                <td>MH02 CZ 2820</td>
+                <td>Mumbai</td>
+                <td>Maruti</td>
+                <td>Ertiga</td>
+                <td>ZXL</td>
+                <td>HDFC Bank</td>
+                <td><span class="statusTag st-inspected">QC Inspected</span></td>
+                <td>Sumit Vyas</td>
+                <td>Sumit Vyas</td>
+              </tr>
+              <tr>
+                <td>MH02 CZ 2820</td>
+                <td>Mumbai</td>
+                <td>Maruti</td>
+                <td>Ertiga</td>
+                <td>ZXL</td>
+                <td>HDFC Bank</td>
+                <td><span class="statusTag st-assigned">Assigned</span></td>
+                <td>Sumit Vyas</td>
+                <td>Sumit Vyas</td>
+              </tr>
+              <tr>
+                <td>MH02 CZ 2820</td>
+                <td>Mumbai</td>
+                <td>Maruti</td>
+                <td>Ertiga</td>
+                <td>ZXL</td>
+                <td>HDFC Bank</td>
+                <td><span class="statusTag st-inprocess">In Process</span></td>
+                <td>Sumit Vyas</td>
+                <td>Sumit Vyas</td>
+              </tr>
+            </table>
+          </div>
+          <!-- *** Table Container End *** -->
+
+          <!-- *** Pagination Container *** -->
+          <div class="c-paginationSection">
+            <ul>
+              <li><span class="statisText">1 of 200</span></li>
+              <li><button class="c-btn btn-primary sm">Previous</button></li>
+              <li><button class="c-btn btn-primary sm">Next</button></li>
+            </ul>
+          </div>
+          <!-- *** Pagination Container End *** -->
+
+        </div>
+      </div>
+    </div>
+    <!-- *************** Container for Table End *************** -->
+
+    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>

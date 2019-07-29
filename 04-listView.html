@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>List View</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/css-styles.css" />
+  </head>
+  <body class="bgColor-dark">
+
+    <!-- *************** Header Top *************** -->
+    <div class="c-header">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <div class="headerLogo">
+              <a href="#"><img src="./images/logo-small.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="headerNav">
+              <ul>
+                <li><a href="javascript:void(0);" class="navLink">Home</a></li>
+                <li><a href="javascript:void(0);" class="navLink">Add Leads</a></li>
+                <li><a href="javascript:void(0);" class="navLink active">Status</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="headerNav">
+              <ul>
+                  <li class="dropdownType-1 dd_notifiBell">
+                    <button class="btnBell dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="icon ts-bell"></i>
+                      <div class="notifi"></div>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </li>
+                  <li class="dropdownType-1">
+                    <button class="headerUserInfo dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="userName">Harsh Saruparia</span>
+                      <img src="./images/photo-1.jpg" class="userImg" alt="user" />
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *************** Header Top End *************** -->
+
+    <!-- *************** Container for cards *************** -->
+      <div class="c-pageContainer">
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Total Leads</span>
+                <span class="h2">1335</span>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Submitted Leads</span>
+                <span class="h2">586</span>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Leads in QC</span>
+                <span class="h2">256</span>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Leads on hold</span>
+                <span class="h2">456</span>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Leads Unassigned</span>
+                <span class="h2">200</span>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="c-cardSmall borderRight">
+                <span class="h1">Leads Overdue</span>
+                <span class="h2">0</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    <!-- *************** Container for cards End *************** -->
+
+    <!-- *************** Container for Filter *************** -->
+    <div class="c-pageContainer bgTransparent">
+      <div class="container-fluid">
+        <div class="row">
+
+          <!-- *** Filter *** -->
+          <div class="col-sm-8">
+            <div class="c-filterList">
+              <ul>
+
+                <li>
+                  <div class="filterType dropdownType-1">
+                    <span class="span">Sort By:</span>
+                    <button class="button dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Registration Number
+                      <i class="icon ts-angle-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <!-- *** Filter End *** -->
+
+
+          <!-- *** Filter *** -->
+          <div class="col-sm-4 text-right">
+            <div class="c-filterList">
+              <ul>
+
+                <li>
+                  <div class="filterType dropdownType-1">
+                    <span class="span">Layout:</span>
+                    <button class="button dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      card view
+                      <i class="icon ts-angle-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li><span class="statisText">1-30 of 93</span></li>
+                <li>
+                  <div class="c-btnGroup">
+                    <button><i class="icon ts-angle-left"></i></button>
+                    <button><i class="icon ts-angle-right"></i></button>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <!-- *** Filter End *** -->
+
+        </div>
+      </div>
+    </div>
+    <!-- *************** Container for Filter End *************** -->
+
+    <div class="c-pageContainer nopad">
+        <!-- *** Table Container *** -->
+        <div class="c-tableContainer">
+          <table class="table type-1 st-collapsable st-sortable">
+            <tr>
+              <th style="width: 3%"><input type="checkbox" class="tableCheckbox" /></th>
+              <th style="width: 12%"><button>#Registration No. <i class="icon ts-angle-down"></i></button></th>
+              <th style="width: 10%"><button>City <i class="icon ts-angle-down"></i></button></th>
+              <th style="width: 10%"><button>Make <i class="icon ts-angle-down"></i></button></th>
+              <th style="width: 10%"><button>Model <i class="icon ts-angle-down"></i></button></th>
+              <th style="width: 10%"><button>Varient <i class="icon ts-angle-down"></i></button></th>
+              <th style="width: 10%"><button>Bank Name <i class="icon ts-angle-down"></i></button></th>
+              <th style="width: 11%"><button>Status <i class="icon ts-angle-down"></i></button></th>
+              <th style="width: 12%"><button>Seller's Details <i class="icon ts-angle-down"></i></button></th>
+              <th style="width: 12%"><button>Inspector's Details <i class="icon ts-angle-down"></i></button></th>
+            </tr>
+            <tr>
+              <td><input type="checkbox" class="tableCheckbox" /></td>
+              <td>#Registration No.</td>
+              <td>City</td>
+              <td>Make</td>
+              <td>Model</td>
+              <td>Varient</td>
+              <td>Bank Name</td>
+              <td>Status</td>
+              <td>Seller's Details</td>
+              <td>Inspector's Details</td>
+            </tr>
+            <tr>
+              <td colspan="10">
+                <div class="tableChildSect container-fluid">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <span class="statisText lg">Registration year: 2012</span>
+                      <span class="statisText lg">No of owner: 2</span>
+                    </div>
+                    <div class="col-sm-2">
+                      <span class="statisText lg">Chasis No.: 27738012XXX</span>
+                      <span class="statisText lg">Insuranse Validity: Yes</span>
+                    </div>
+                    <div class="col-sm-2">
+                      <span class="statisText lg">Overall Car Condition: Good</span>
+                      <span class="statisText lg">Original RC book: Yes</span>
+                    </div>
+                    <div class="col-sm-2">
+                      <span class="statisText lg">PUC certificate: Yes</span>
+                      <span class="statisText lg">Color: White</span>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="imageList">
+                        <ul>
+                          <li><span class="statisText lg">Images:</span></li>
+                          <li><img src="./images/10.jpg" alt="" /></li>
+                          <li><img src="./images/10.jpg" alt="" /></li>
+                          <li><img src="./images/10.jpg" alt="" /></li>
+                        </ul>
+                      </div>
+                      <span class="statisText lg">More Information +</span>
+                    </div>
+                  </div>
+
+                  <!-- ** Progress Tabs ** -->
+                  <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                      <div class="row no-gutters progressSection__01">
+
+                        <div class="col">
+                          <div class="pSect st-active">
+                            <div class="pSectBar leftSide"></div>
+                            <div class="pSectInfo">
+                              <div class="divIcon"><i class="icon ts-android-done"></i></div>
+                              <span class="statisText">Lead Added</span>
+                              <span class="statisText">11/05/2019</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="pSect">
+                            <div class="pSectBar"></div>
+                            <div class="pSectInfo">
+                              <div class="divIcon"><i class="icon ts-android-done"></i></div>
+                              <span class="statisText">Inspection Done</span>
+                              <span class="statisText">15/05/2019</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="pSect">
+                            <div class="pSectBar"></div>
+                            <div class="pSectInfo">
+                              <div class="divIcon"><i class="icon ts-android-done"></i></div>
+                              <span class="statisText">QC verification Pending</span>
+                              <span class="statisText">-/-/-</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="pSect">
+                            <div class="pSectBar rightSide"></div>
+                            <div class="pSectInfo">
+                              <div class="divIcon"><i class="icon ts-android-done"></i></div>
+                              <span class="statisText">Final Value of car</span>
+                              <span class="statisText">-/-/-</span>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ** Progress Tabs End ** -->
+
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!-- *** Table Container End *** -->
+
+    </div>
+
+
+    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
