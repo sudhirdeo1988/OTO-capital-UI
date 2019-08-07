@@ -139,6 +139,12 @@ font-family: 'Roboto', sans-serif;
 .ts-trash:before {
   content: "\47";
 }
+.ts-edit:before {
+  content: "\48";
+}
+.ts-eye:before {
+  content: "\49";
+}
 
 /* ------------------------------
 2. Reset Styles
@@ -308,6 +314,25 @@ button,a{outline:none;}
 	padding: 2px 15px;
 	line-height: 18px;
 	border-radius: 20px;
+}
+.btn-action{
+	background: #93C26C;
+	display: inline-block;
+	padding: 0;
+	margin-right: 2px;
+	text-align: center;
+	height: 25px;
+	width: 25px;
+	border: 0;
+	outline: none;
+	border-radius: 3px;
+}
+.btn-action .icon{
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	line-height: 19px;
 }
 .c-header{
 	background-color: #fff;
@@ -633,6 +658,10 @@ button,a{outline:none;}
 .statusTag.st-inprocess{background-color: #FDEFE9; color: #FE917D;}
 .statusTag.st-assigned{background-color: #FDF5E2; color: #FFA82B;}
 .statusTag.st-inspected{background-color: #FDF5E2; color: #FDE055;}
+.statusTag.st-completed{background-color: #d4edda; color: #8ab394;}
+.statusTag.st-unassigned{background-color: #e2e3e5; color: #9ca4ab;}
+.statusTag.st-closed{background-color: #f5c6cb; color: #ce7c84;}
+
 .tableCheckbox{position: relative; margin: 0; padding: 0;}
 .st-sortable th button,
 .st-sortable td button{
